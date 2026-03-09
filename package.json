@@ -1,0 +1,18 @@
+{
+  "name": "wifi-contact-signaling",
+  "version": "1.0.0",
+  "description": "Signaling server for WiFi Contact P2P calling",
+  "main": "signaling-server.js",
+  "scripts": {
+    "start": "node signaling-server.js",
+    "dev": "nodemon signaling-server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.5.4",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
